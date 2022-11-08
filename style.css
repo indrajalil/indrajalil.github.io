@@ -87,6 +87,8 @@ a{
     max-width: 500px;
     height: auto;
     padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(5, 5, 5, 0.5);
 }
 .parallax{
     background-image: url(rotation-contrast-stained-bright-blue-181766.jpg);
