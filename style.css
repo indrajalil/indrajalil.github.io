@@ -38,6 +38,7 @@ header{
 }
 .btn-cta:hover{
     background: #eaeaea;
+    color: #000;
     color: rgb(9, 73, 73);
     transform: rotate(2deg)
 }
