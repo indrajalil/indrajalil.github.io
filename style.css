@@ -22,7 +22,7 @@ header{
     transition: all .5s ease 0s;
 }
 .logo:hover{
-    color: #eaeaea;
+    color: rgb(4, 67, 67);
     transform: rotate(2deg);
 }
 .btn-cta {
@@ -173,29 +173,13 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 13vh;
+    height: 5vh;
 }
-.close .contact .contact-us{
-    text-align: center;
-    font-weight: bold;
-    gap: 10px;
+.close .contact .contact-us .penutup{
+    font-weight: none;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: smaller;
     color: #eaeaea;
-}
-.mt-5{
-    margin-top: 25px;
-}
-.btn-13{
-    border: none;
-    font-size: 13px;
-    padding: 6px 12px;
-    background: rgb(18, 163, 163);
-    color: #000;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all .5s ease 0s;
-}
-.btn-13:hover{
-    transform: rotate(2deg);
-    background: #eaeaea;
-    color: rgb(18, 57, 57);
 }
