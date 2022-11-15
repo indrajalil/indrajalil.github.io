@@ -144,7 +144,7 @@ a{
     padding: 6px;
 }
 .container .card .card-item img{
-    width: 50px;
+    width: 40px;
 }
 @media screen and (max-width: 500px){
     .card{
@@ -165,21 +165,14 @@ a{
         padding: 0;
     }
 }
-footer{
-    background: #000;
-    color: rgb(18, 163, 163);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 5vh;
-}
-.close .contact .contact-us .penutup{
-    font-weight: none;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: smaller;
-    color: #eaeaea;
+.container .image img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(5, 5, 5, 0.5);
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
 }
