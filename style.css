@@ -145,11 +145,28 @@ a{
 }
 .container .card .card-item img{
     width: 40px;
-}.container .card .isi{
+}
+.container .card .isi{
     padding: 40px;
     text-align: center;
     font-size: large;
     font-weight: 400;
+}
+.parallax1{
+    background-image: url(rotation-contrast-stained-bright-blue-181766.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.penutup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    color: #eaeaea;
+    padding: 50px;
 }
 @media screen and (max-width: 500px){
     .card{
@@ -178,10 +195,14 @@ footer{
 .nav-footer{
     color: #fff;
     font-size: large;
+
 }
 .nav-footer ul{
     display: flex;
     padding: 3px;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px;
 }
 li{
     list-style-type: none;
