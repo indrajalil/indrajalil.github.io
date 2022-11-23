@@ -47,7 +47,7 @@ header{
 }
 li{
     list-style-type: none;
-    padding: 10px;
+    padding: 80px;
 }
 li a{
     transition: all .5s ease 0s;
@@ -145,6 +145,11 @@ a{
 }
 .container .card .card-item img{
     width: 40px;
+}.container .card .isi{
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: 400;
 }
 @media screen and (max-width: 500px){
     .card{
@@ -165,14 +170,33 @@ a{
         padding: 0;
     }
 }
-.container .image img{
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 1px 1px rgba(5, 5, 5, 0.5);
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
+footer{
+    font-family: 'Poppins', sans-serif;
+    height: 7vh;
+    background: rgb(26, 7, 49);
+}
+.nav-footer{
+    color: #fff;
+    font-size: large;
+}
+.nav-footer ul{
+    display: flex;
+    padding: 3px;
+}
+li{
+    list-style-type: none;
+    padding: 3px;
+}
+li a{
+    transition: all .5s ease 0s;
+}
+li a:hover{
+    color: rgb(9, 73, 73);
+    transform: rotate(2deg);
+    display: inline-block;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
 }
