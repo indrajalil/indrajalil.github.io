@@ -51,6 +51,7 @@ li{
 }
 li a{
     transition: all .5s ease 0s;
+    padding: 10px;
 }
 li a:hover{
     color: rgb(9, 73, 73);
@@ -147,10 +148,11 @@ a{
     width: 40px;
 }
 .container .card .isi{
-    padding: 40px;
+    padding: 50px;
     text-align: center;
     font-size: large;
     font-weight: 400;
+    letter-spacing: 0.3px;
 }
 .parallax1{
     background-image: url(rotation-contrast-stained-bright-blue-181766.jpg);
@@ -167,6 +169,8 @@ a{
     background: #000;
     color: #eaeaea;
     padding: 50px;
+    font-weight: bold;
+    font-size: 24px;
 }
 @media screen and (max-width: 500px){
     .card{
